@@ -6,3 +6,21 @@
     </div>
     <!-- Repeat the above div for each project -->
 </section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+    <p>LinkedIn: <a href="your-linkedin-url">Your LinkedIn</a></p>
+</section>
+
+#projects .project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#contact a {
+    color: #0066cc;
+    text-decoration: none;
+}
