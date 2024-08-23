@@ -9,7 +9,6 @@
 
 <section id="contact">
     <h2>Contact</h2>
-    <p>Email: your.email@example.com</p>
-    <p>LinkedIn: <a href="your-linkedin-url">Your LinkedIn</a></p>
+    <p>Email: shekhar.tiruwaofficial@gmail.com</p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/shekhar-tiruwa/" target="_blank">Shekhar Tiruwa</a></p>
 </section>
-
