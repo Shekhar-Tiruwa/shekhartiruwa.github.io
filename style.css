@@ -1,11 +1,13 @@
-body {
-    font-family: Arial, sans-serif;
+/* Base Styles */
+body, html {
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif;
     background-color: #f4f4f4;
     color: #333;
 }
 
+/* Header */
 header {
     text-align: center;
     padding: 50px;
@@ -13,73 +15,7 @@ header {
     color: white;
 }
 
-section {
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-    border-radius: 8px;
-}
-
-#projects .project {
-    border: 1px solid #ddd;
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-}
-
-#contact a {
-    color: #0077b5; /* LinkedIn Blue */
-    font-weight: bold;
-    text-decoration: none;
-}
-
-#contact a:hover {
-    text-decoration: underline;
-}
-
-#projects h3 {
-    color: #333;
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-#projects ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-#projects li {
-    margin-bottom: 10px;
-}
-
-nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    background-color: #333;
-}
-
-nav ul li {
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-    padding: 10px;
-    display: block;
-}
-
-nav ul li a:hover {
-    background-color: #555;
-}
-body, html {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-}
-
+/* Banner Section */
 .banner {
     position: relative;
     text-align: center;
@@ -114,16 +50,18 @@ body, html {
     margin: 5px 0;
 }
 
+/* Navigation */
 nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
     background-color: #333;
-    overflow: hidden;
+    display: flex;
+    justify-content: center;
 }
 
 nav ul li {
-    float: left;
+    margin: 0 15px;
 }
 
 nav ul li a {
@@ -135,5 +73,47 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background-color: #111;
+    background-color: #555;
+}
+
+/* Section Styling */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+/* Projects Section */
+#projects .project {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+#projects h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+#projects ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#projects li {
+    margin-bottom: 10px;
+}
+
+/* Contact Section */
+#contact a {
+    color: #0077b5; /* LinkedIn Blue */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
 }
