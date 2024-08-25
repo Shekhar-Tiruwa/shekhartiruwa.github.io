@@ -27,8 +27,8 @@ header {
 
 .banner-image {
     width: 100%;
-    height: auto;
-    max-height: none; /* Remove any height restrictions */
+    height: 300%;
+    max-height: 350%; /* Remove any height restrictions */
     object-fit: cover; /* Ensures the image covers the entire area */
 }
 
@@ -41,7 +41,7 @@ header {
     text-shadow: 2px 2px 4px #000; /* Add a shadow for better text visibility */
     padding: 0 20px;
     box-sizing: border-box;
-    width: 100%;
+    width: 180%;
 }
 
 .banner-text h1 {
