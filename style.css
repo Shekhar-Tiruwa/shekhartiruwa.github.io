@@ -21,13 +21,13 @@ header {
     text-align: center;
     color: white;
     background-color: #333; /* Fallback color */
-    height: auto;
+    height: 250%;
     overflow: hidden; /* Ensure no overflow of content */
 }
 
 .banner-image {
     width: 100%;
-    height: auto;
+    height: 250;
     object-fit: cover; /* Ensures the image covers the entire area */
 }
 
