@@ -26,9 +26,9 @@ header {
 }
 
 .banner-image {
-    width: 70%;
+    width: 50%;
     height: 100%;
-    object-fit: cover; /* Ensure the entire image fits without cropping */
+    object-fit: contain; /* Ensure the entire image fits without cropping */
 }
 
 .banner-overlay {
