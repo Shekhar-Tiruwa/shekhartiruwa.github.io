@@ -28,7 +28,7 @@ header {
 .banner-image {
     width: 65%;
     height: 100%;
-    object-fit: contain; /* Ensure the entire image fits without cropping */
+    object-fit: cover; /* Ensure the entire image fits without cropping */
 }
 
 .banner-overlay {
@@ -45,7 +45,7 @@ header {
     top: 50%; /* Center vertically */
     left: 20px; /* Align the text to the left with padding */
     transform: translateY(-50%); /* Adjust for perfect centering */
-    text-align: left;
+    text-align: right;
     color: white; /* White text color */
     padding: 10px;
     width: 45%; /* Ensure text stays within the overlay */
