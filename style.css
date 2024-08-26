@@ -18,7 +18,7 @@ header {
 /* Banner Section */
 .banner {
     position: relative;
-    text-align: left; /* Align text to the left */
+    text-align: right; /* Align text to the left */
     color: white; /* Change text color to white */
     background-color: #333; /* Fallback color */
     height: 100vh; /* Use full viewport height */
@@ -26,7 +26,7 @@ header {
 }
 
 .banner-image {
-    width: 100%;
+    width: 65%;
     height: 100%;
     object-fit: contain; /* Ensure the entire image fits without cropping */
 }
