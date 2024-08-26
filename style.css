@@ -18,7 +18,7 @@ header {
 /* Banner Section */
 .banner {
     position: relative;
-    text-align: left; /* Align text to the left */
+    text-align: right; /* Align text to the left */
     color: white; /* Change text color to white */
     background-color: #333; /* Fallback color */
     height: 100vh; /* Use full viewport height */
@@ -26,9 +26,9 @@ header {
 }
 
 .banner-image {
-    width: 100%;
+    width: 66%;
     height: 100%;
-    object-fit: cover; /* Ensures the image covers the entire area */
+    object-fit: cover; /* Ensure the entire image fits without cropping */
 }
 
 .banner-overlay {
@@ -37,7 +37,7 @@ header {
     left: 0;
     width: 50%; /* Cover the left half of the banner */
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay for better text contrast */
+    /*background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay for better text contrast */
 }
 
 .banner-text {
@@ -45,7 +45,7 @@ header {
     top: 50%; /* Center vertically */
     left: 20px; /* Align the text to the left with padding */
     transform: translateY(-50%); /* Adjust for perfect centering */
-    text-align: left;
+    text-align: right;
     color: white; /* White text color */
     padding: 10px;
     width: 45%; /* Ensure text stays within the overlay */
