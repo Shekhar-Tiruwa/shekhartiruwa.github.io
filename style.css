@@ -18,8 +18,8 @@ header {
 /* Banner Section */
 .banner {
     position: relative;
-    text-align: center;
-    color: white;
+    text-align: left; /* Align text to the left */
+    color: white; /* Change text color to white */
     background-color: #333; /* Fallback color */
     height: 100vh; /* Use full viewport height */
     overflow: hidden; /* Ensure no overflow of content */
@@ -35,35 +35,34 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 50%; /* Cover the left half of the banner */
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.4); /* Semi-transparent overlay */
+    background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay for better text contrast */
 }
 
 .banner-text {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: white;
+    top: 50%; /* Center vertically */
+    left: 20px; /* Align the text to the left with padding */
+    transform: translateY(-50%); /* Adjust for perfect centering */
+    text-align: left;
+    color: white; /* White text color */
     padding: 10px;
-    width: 100%;
+    width: 45%; /* Ensure text stays within the overlay */
     box-sizing: border-box;
 }
 
 .banner-text h1 {
-    font-size: 4vw; /* Make the heading slightly larger */
+    font-size: 3vw; /* Responsive font size */
     margin: 0;
     font-weight: bold;
 }
 
 .banner-text p {
-    font-size: 2vw; /* Adjust the size for better readability */
+    font-size: 1.5vw; /* Responsive font size */
     margin: 5px 0;
     font-weight: 300;
 }
-
 /* Navigation */
 nav ul {
     list-style-type: none;
