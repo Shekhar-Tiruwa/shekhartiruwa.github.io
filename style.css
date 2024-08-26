@@ -26,7 +26,7 @@ header {
 }
 
 .banner-image {
-    width: 67%;
+    width: 65.5%;
     height: 100%;
     object-fit: cover; /* Ensure the entire image fits without cropping */
 }
