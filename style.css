@@ -21,7 +21,7 @@ header {
     text-align: left; /* Align text to the left */
     color: white; /* Change text color to white */
     background-color: #333; /* Fallback color */
-    height: 100vh; /* Use full viewport height */
+    height: 100; /* Use full viewport height */
     overflow: hidden; /* Ensure no overflow of content */
 }
 
@@ -35,7 +35,7 @@ header {
     position: absolute;
     top: 0;
     left: 0;
-    width: 50%; /* Cover the left half of the banner */
+    width: 90%; /* Cover the left half of the banner */
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay for better text contrast */
 }
